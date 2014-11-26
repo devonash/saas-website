@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>Webit</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/main.css" rel="stylesheet">
+    
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
@@ -14,10 +15,9 @@
     <div class="head-top">
         <div class="logo">
             <a href="index.html"><img src="images/webit-logo.svg"></a>
-            <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
         </div>
-        <div class="">
-            <nav class="nav nav-top" data-state="collapsed">
+        <div>
+            <nav class="nav">
                 <ul>
                     <li><a href="">Login</a></li>
                     <li><a href="">Sign Up</a></li>
@@ -29,41 +29,54 @@
     </div>
 </header>
     
-<div>
-    <h1>Your Website, Your Way</h1>
-    <h2>Customize websites, free of code.</h2>
+<div class="billboard">
     <img class="greendrops" src="images/billboard-image-green.jpg" alt="Green Droplet Image">
-    <div>
-        <button type="submit">Get Started</button>
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+            <h1>Your Website, Your Way</h1>
+            <h2>Customize websites, free of code.</h2>
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+            <button type="submit">Get Started</button>
+        </div>
     </div>
 </div>
 
 <div>
     <h3>Choose Your Template</h3>
-    <img src="">
+    <img src="http://placehold.it/350x150">
 </div>
 
-<div>
-    <h3>Features</h3>
-    <div>
+<h3>Features</h3>
+    
+<div class="grid">
+    <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <img src="">
+    </div>
+    <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <h4>Templates</h4>
         <p>description</p>
     </div>
-    <div>
-        <img src="">
+    <div class="box3 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <h4>Domains</h4>
         <p>description</p>
     </div>
-    <div>
+    <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <img src="">
+    </div>
+    <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <img src="">
+    </div>
+      <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <h4>Built-In Mobile</h4>
         <p>description</p>
     </div>
-    <div>
-        <img src="">
+    <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <h4>24/7 Customer Service</h4>
         <p>description</p>
+    </div>
+    <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <img src="">
     </div>
 </div>
     
@@ -71,13 +84,15 @@
     <q>Quotation</q><p>—Name here</p>
 </div>
     
-<footer>
-    <p>© Copyright webit</p>
-     <div>
+<footer class="grid">
+    <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+        <p>© Copyright webit</p>
+    </div>
+     <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
         <button type="submit">Get Started</button>
     </div>
 </footer>   
 
-<script src="js/nav.js"></script>
+
 </body>
 </html>
