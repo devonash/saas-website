@@ -139,10 +139,6 @@ body {
 	color: #fff;
 }
 
-.nav-bottom {
-	margin-top: 1.5em;
-}
-
 button {
     font-size: 1.5em;
     background-color: #000;
@@ -179,9 +175,31 @@ button:hover {
     background-color: red;
 }
 
+.foot {
+    background-color: red;
+}
 
+.billboard {
+    position: relative;
+}
 
+.billboardtext {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 80%;
+}
 
+@media only screen and (min-width:60em) {
+ 
+    .getstarted {
+        text-align: right;
+    }
+    
+}
+    
 
 
 
