@@ -199,8 +199,18 @@ button:hover {
 .feature {
     text-align: center;
 }
+ 
+q {
+    display: inline;
+}
 
-.quote {
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
 
 @media only screen and (min-width:60em) {
  
