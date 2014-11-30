@@ -11,13 +11,18 @@
 </head>
 <body>
 
-<header class="head">
+<ul class="skip-links">
+    <li><a href="#nav">Skip to Navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+</ul>    
+    
+<header class="head" role="banner">
     <div class="head-top">
         <div class="logo">
             <a href="index.html"><img src="images/webit-logo.svg"></a>
         </div>
         <div>
-            <nav class="nav">
+            <nav class="nav" role="navigation" id="nav">
                 <ul>
                     <li><a href="">Login</a></li>
                     <li><a href="">Sign Up</a></li>
@@ -29,64 +34,66 @@
     </div>
 </header>
     
-<div class="billboard">
-    <img class="greendrops" src="images/billboard-image-green.jpg" alt="Green Droplet Image">
-    <div class="billboardtext">
-        <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                <h1>Your Website, Your Way</h1>
-                <h2>Customize websites, free of code.</h2>
-            </div>
-            <div class="getstarted unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                <a href><p class="tera push-0">Get Started</p></a>
+<main role="main" id="main">   
+    <div class="billboard">
+        <img class="greendrops" src="images/billboard-image-green.jpg" alt="Green Droplet Image">
+        <div class="billboardtext">
+            <div class="grid">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <h1>Your Website, Your Way</h1>
+                    <h2>Customize websites, free of code.</h2>
+                </div>
+                <div class="getstarted unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+                    <a href><p class="tera push-0">Get Started</p></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div>
-    <h3 class="tera island headers3">Choose Your Template</h3>
-    <img src="http://placehold.it/350x150">
-</div>
+    <div>
+        <h3 class="tera island headers3">Choose Your Template</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
 
-<h3 class="tera island headers3">Features</h3>
+    <h3 class="tera island headers3">Features</h3>
+
+    <div class="grid">
+        <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <img src="">
+        </div>
+        <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h4 class="giga feature">Templates</h4>
+            <p class="mega feature">description</p>
+        </div>
+        <div class="box3 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <img src="">
+        </div>
+        <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h4 class="giga feature">Domains</h4>
+            <p class="mega feature">description</p>
+        </div>
+        <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <img src="">
+        </div>
+          <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h4 class="giga feature">Built-In Mobile</h4>
+            <p class="mega feature">description</p>
+        </div>
+        <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <img src="">
+        </div>
+        <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h4 class="giga feature">24/7 Customer Service</h4>
+            <p class="mega feature">description</p>
+        </div>
+    </div>
+
+    <div class="island-double quotation">
+        <blockquote>Quotation<span>—Person's name</span></blockquote>
+    </div>
+</main>
     
-<div class="grid">
-    <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <img src="">
-    </div>
-    <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <h4 class="giga feature">Templates</h4>
-        <p class="mega feature">description</p>
-    </div>
-    <div class="box3 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <img src="">
-    </div>
-    <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <h4 class="giga feature">Domains</h4>
-        <p class="mega feature">description</p>
-    </div>
-    <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <img src="">
-    </div>
-      <div class="box2 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <h4 class="giga feature">Built-In Mobile</h4>
-        <p class="mega feature">description</p>
-    </div>
-    <div class="box4 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <img src="">
-    </div>
-    <div class="box1 island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <h4 class="giga feature">24/7 Customer Service</h4>
-        <p class="mega feature">description</p>
-    </div>
-</div>
-    
-<div class="island-double quotation">
-    <blockquote>Quotation<span>—Person's name</span></blockquote>
-</div>
-    
-<footer class="foot island grid">
+<footer class="foot island grid" role="contentinfo">
     <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
         <p class="copyright kilo">© Copyright webit</p>
     </div>

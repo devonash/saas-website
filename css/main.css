@@ -49,14 +49,11 @@ body {
     padding: 0;
 }
 
-.head {
-    background-color: grey;
-    overflow: hidden;
-}
-
 .head-top {
 	overflow: hidden;
 	position: relative;
+    background-color: #000;
+    padding: 2rem;
 }
 
 .logo {
@@ -75,7 +72,7 @@ body {
 
 .nav > ul {
 	margin: 0;
-	padding: 0.8em 0;
+	padding: 0.8em 0.8em;
     display: inline-block;
 	list-style-type: none;
 	font-size: 1em;
@@ -142,7 +139,7 @@ button:hover {
 }
 
 .foot {
-    background-color: red;
+    background-color: #000;
 }
 
 .billboard {
@@ -220,6 +217,30 @@ blockquote span {
     border-color: #33cc33;
 }
 
+a:focus {
+    outline: 3px solid #fff;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
 .copyright {
     color: #fff;
 }
@@ -238,11 +259,12 @@ blockquote span {
     .billboardtext {
         text-align: center;
     }
+
+    .nav > ul {
+        float: left;  
+    }
     
 }
-
-
-    
     
 
 
