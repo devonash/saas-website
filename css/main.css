@@ -102,21 +102,6 @@ body {
 	color: #fff;
 }
 
-button {
-    font-size: 1.5em;
-    background-color: #000;
-    font-family: Helvetica;
-    border-radius: 16px;
-    padding: 0.5em 0.75em;
-    color: #fff;
-}
-
-button:hover {
-    background-color: #404040;
-    cursor: pointer;
-    color: #fff;
-}
-
 .greendrops {
     max-width: 100%;
     display: block;
