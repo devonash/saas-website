@@ -200,16 +200,31 @@ button:hover {
     text-align: center;
 }
  
-q {
+blockquote {
     display: inline;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
 }
 
-q:before {
+blockquote:before, blockquote:after {
+color: #33cc33;
+font-size: 500%;
+width: 50px;
+}
+
+blockquote:before {
     content: open-quote;
 }
 
-q:after {
+blockquote:after {
     content: close-quote;
+}
+
+.quotation {
+    background-color: grey;
 }
 
 @media only screen and (min-width:60em) {
