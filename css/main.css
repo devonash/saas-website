@@ -207,11 +207,12 @@ blockquote {
     font-size: 20px;
     width: 350px;
     text-align: center;
+    margin: 0 auto;
 }
 
 blockquote:before, blockquote:after {
 color: #33cc33;
-font-size: 500%;
+font-size: 400%;
 width: 50px;
 }
 
@@ -227,10 +228,23 @@ blockquote:after {
     background-color: grey;
 }
 
+.quotename {
+    margin: 0 auto;
+}
+
 @media only screen and (min-width:60em) {
  
     .getstarted {
         text-align: right;
+    }
+    
+}
+
+
+@media only screen and (min-width: 25em) {
+    
+    .billboardtext {
+        text-align: center;
     }
     
 }
