@@ -129,7 +129,12 @@ body {
 }
 
 .billboard {
-    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 30rem;
+    background-size: 100%;
+    background-image: url(../images/billboard-image-green.jpg);
+    
 }
 
 .billboardtext {
