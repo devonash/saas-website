@@ -160,11 +160,12 @@ width: 50px;
 }
 
 blockquote:before {
-    content: open-quote;
+    content: "“";
 }
 
 blockquote:after {
-    content: close-quote;
+    content: "”";
+    
 }
 
 .quotation {
