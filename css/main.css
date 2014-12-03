@@ -127,12 +127,12 @@ body {
     overflow: hidden;
     height: 30rem;
     background-size: 100%;
-    background-image: url(../images/billboard-image-green.jpg);
+    background-image: url(../images/billboard-saas.jpg);
     
 }
 
 .billboardtext {
-    color: #fff;
+    color: #000;
 }
 
 .headers3 {
@@ -170,12 +170,6 @@ blockquote:after {
     background-color: grey;
 }
 
-/*blockquote span {
-    font-size: 100%;
-    margin-left: 10px;
-    font-weight: 500;
-}*/
-
 .getstarted a {
     display: block;
     text-align: center;
@@ -189,7 +183,7 @@ blockquote:after {
     height: 4em;
     font-weight: 200;
     border-color: white;
-    margin: 0 auto;
+    margin: 0;
     border: 1px;
     border-style: solid;
     border-width: 2px;
@@ -239,7 +233,7 @@ a:focus {
 @media only screen and (min-width:60em) {
  
     .getstarted {
-        text-align: right;
+        text-align: left;
     }
     
 }
@@ -248,7 +242,7 @@ a:focus {
 @media only screen and (min-width: 25em) {
     
     .billboardtext {
-        text-align: center;
+        text-align: left;
     }
 
     .nav > ul {
