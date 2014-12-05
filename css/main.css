@@ -16,7 +16,7 @@ html {
   text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 25em) {
     
     html {
         font-size: 110%;
@@ -24,7 +24,7 @@ html {
     
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 38em) {
 
     html {
         font-size: 120%;
@@ -32,7 +32,7 @@ html {
     
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 60em) {
     
     html {
         font-size: 130%
@@ -102,20 +102,18 @@ body {
 	color: #fff;
 }
 
+.template-image {
+
+}
+
 .box1 {
-    background-color: yellow;
+    background-color: #33cc33;
+    padding: 4em;
 }
 
 .box2 {
-    background-color: green;
-}
-
-.box3 {
-    background-color: blue;
-}
-
-.box4 {
-    background-color: red;
+    background-color: #000;
+    padding: 4em;
 }
 
 .foot {
@@ -125,14 +123,17 @@ body {
 .billboard {
     width: 100%;
     overflow: hidden;
-    height: 30rem;
+    height: 15rem;
     background-size: 100%;
-    background-image: url(../images/billboard-saas.jpg);
-    
+    background-image: url(../images/billboard-saas-black-mayyybe-cropped.jpg);  
+    color: #fff;
 }
 
 .billboardtext {
-    color: #000;
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    text-shadow: 1px 1px 4px #000;
+    margin-top: 3em;
 }
 
 .headers3 {
@@ -141,6 +142,7 @@ body {
 
 .feature {
     text-align: center;
+    color: #fff;
 }
  
 blockquote {
@@ -159,15 +161,21 @@ width: 50%;
 
 blockquote:before {
     content: "“";
+    font-size: 6rem;
 }
 
 blockquote:after {
     content: "”";
+    font-size: 6rem;
     
 }
 
+.template {
+    padding: 0 7%;
+}
+
 .quotation {
-    background-color: grey;
+    background-color: #fff;
 }
 
 .getstarted a {
@@ -188,6 +196,28 @@ blockquote:after {
     border-style: solid;
     border-width: 2px;
     border-color: #33cc33;
+}
+
+.getstarted-footer a {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #000;
+    padding: 1em;
+    text-decoration: none;
+    width: 8em;
+    height: 4em;
+    font-weight: 200;
+    border-color: white;
+    margin: 0;
+    border: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #33cc33;
+    float: right;
+    
 }
 
 a:focus {
@@ -230,10 +260,22 @@ a:focus {
     border-color: #33cc33;
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
  
     .getstarted {
         text-align: left;
+    }
+    
+    .billboard {
+        height: 40rem;
+    }
+    
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .billboard {
+        height: 30rem;
     }
     
 }
