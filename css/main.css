@@ -116,6 +116,13 @@ body {
     padding: 4em;
 }
 
+.box3 {
+    background-color: #fff;
+    border-color: #000;
+    border-style: solid;
+    border-width: 5px;
+}
+
 .foot {
     background-color: #000;
 }
@@ -192,6 +199,7 @@ button {
     color: #fff;
     border-radius: 5px;
     padding: 0.5em 0.75em;
+    margin-bottom: 4rem;
 }
 
 .template {
@@ -315,6 +323,9 @@ a:focus {
         float: left;  
     }
     
+    .billboard {
+        height: 31rem;
+    }
 }
     
 
