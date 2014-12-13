@@ -323,6 +323,7 @@ a:focus {
 .copyright {
     color: #fff;
     width: 12em;
+    margin: 0;
 }
 
 .toplink {
