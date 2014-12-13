@@ -130,9 +130,9 @@ body {
 }
 
 .box3:hover {
-    background-color: #000;
+    background-color: #222;
     color: #fff;
-    border-color: #33cc33;
+    border-color: #000;
 }
 
 .foot {
