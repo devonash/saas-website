@@ -95,8 +95,8 @@ body {
 	text-decoration: none;
 }
 
-.nav a:hover,
 .nav a:focus,
+.nav a:hover,
 .nav a:active {
 	background-color: #222;
 	color: #fff;
