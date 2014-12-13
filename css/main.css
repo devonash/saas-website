@@ -127,6 +127,7 @@ body {
     border-color: #000;
     border-style: solid;
     border-width: 5px;
+    color: #000;
 }
 
 .box3:hover {
