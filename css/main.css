@@ -123,6 +123,12 @@ body {
     border-width: 5px;
 }
 
+.box3:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #33cc33;
+}
+
 .foot {
     background-color: #000;
 }
@@ -143,6 +149,10 @@ body {
     margin-top: 3em;
 }
 
+.nonbold {
+    font-weight: 400;
+}
+
 .headers3 {
     text-align: center;
 }
@@ -150,6 +160,16 @@ body {
 .feature {
     text-align: center;
     color: #fff;
+}
+
+.price-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.price {
+    text-align: center;
+    font-weight: 100; 
 }
  
 blockquote {
@@ -199,6 +219,18 @@ button {
     color: #fff;
     border-radius: 5px;
     padding: 0.5em 0.75em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.signuppage {
+    background-color: #000;
+}
+
+.signupmain {
+    background-color: #fff;
 }
 
 .template {
